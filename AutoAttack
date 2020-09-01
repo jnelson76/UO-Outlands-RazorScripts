@@ -1,0 +1,5 @@
+overhead '[Attack!, Attack!]' 945
+//Use # to comment out which you wish to not use.
+#hotkey 'Next Non-Friendly Humanoid Target'
+hotkey 'Next Non-Friendly Monster Target'
+hotkey 'Attack Last Target'
