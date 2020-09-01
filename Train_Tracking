@@ -1,0 +1,53 @@
+///////////////////////////////////////
+//                                      //
+//            Tracking Trainer          //  
+//      Razor Script for UO Outlands    //
+//              by Syrupz  v.1          //
+//                                      //
+//  This speeds up training the skill   //
+//  -*MUST* press begin hunting first!  //      
+//  Once your passive tracking is on    //     
+//  this script will select passive     //
+//  and search to raise skill faster    // 
+//                                      //
+//  Included is modifications for you   //
+//  to make if you want to use this     //
+//   as a hotkey on the run.            //
+//                                      //
+//  Option 1 - Skill gain trainer       //
+//  Option 2 - Search aggro mob pg 1-4  //
+//  Option 3 - Search Players pg 1-2    //
+//                                      //
+//////////////////////////////////////////
+
+//Option 1 - Skill Gain Trainer <<
+skill 'Tracking'
+wait 600
+gumpresponse 3 //selection for passive animals
+pause 600
+gumpresponse 10 // first selection
+pause 10500 // 10 second skill cooldown 
+loop
+
+//Option 2
+//skill 'Tracking'
+//pause 600
+//gumpresponse 2 //selection for aggro mobs
+//wait 600
+//gumpresponse 3 //second page aggro mobs
+//wait 600
+//gumpresponse 3 //third page aggro mobs
+//wait 600
+//gumpresponse 3 //fourth page aggro mobs
+//wait 600
+//gumpresponse 0 //closes tracking gump
+
+
+//Option 3
+//skill 'Tracking'
+//pause 600
+//gumpresponse 6 //selection for players
+//pause 600
+//gumpresponse 3 //selection page players
+//pause 600
+//gumpresponse 0 //closes tracking gump
